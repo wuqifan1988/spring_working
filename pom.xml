@@ -45,10 +45,35 @@
 		</dependency>
 
         <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>4.3.11.RELEASE</version>
+        </dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>4.3.11.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-dbcp2</artifactId>
+			<version>2.6.0</version>
+		</dependency>
+
+        <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
             <version>1.8.10</version>
         </dependency>
+
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>1.4.198</version>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
